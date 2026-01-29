@@ -1,0 +1,40 @@
+
+body {
+  font-family: Noto Sans, sans-serif;
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  background: linear-gradient(135deg, #fff0f5, #fffacd);
+}
+
+p {
+  line-height: 1.6;
+}
+
+a {
+  color: #f76da9;
+  text-decoration: none;
+  border-bottom: 2px dotted #f76da9;
+  cursor: pointer;
+}
+
+input[type="color"] {
+  width: 50px;
+  height: 30px;
+  border: none;
+  cursor: pointer;
+  appearance: none;
+  background: none;
+}
+
+input[type="range"] {
+  width: 400px;
+}
+
+img{
+  box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  display: block;
+  margin: 0 auto;
+  border-radius: 10px;
+  width: 500px;
+}
